@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Test</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi_attn">2</td><td class="numi">36.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th><th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="5">spctest.com.pageAction.DataImportTest</td><td><a href="#m-721869787"><b>afterMethod</b>  </a></td><td>unknown</td><td class="numi">2</td><td></td><td></td><td>1468234465992</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m-873113720"><b>beforeMethod</b>  </a></td><td>unknown</td><td class="numi">2</td><td></td><td></td><td>1468234465986</td><td class="numi">8</td></tr><tr class="skippedodd"><td><a href="#m-721869787"><b>afterMethod</b>  </a></td><td>unknown</td><td class="numi">2</td><td></td><td></td><td>1468234465992</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m-873113720"><b>beforeMethod</b>  </a></td><td>unknown</td><td class="numi">2</td><td></td><td></td><td>1468234465986</td><td class="numi">8</td></tr><tr class="skippedodd"><td><a href="#m753218372"><b>afterClass</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td></td><td>1468234466000</td><td class="numi">0</td></tr>
+<tr><th colspan="5">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">spctest.com.pageAction.DataImportTest</td><td><a href="#m221093431"><b>dataImport</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td></td><td>1468234465988</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m1001017917"><b>deleteData</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td></td><td>1468234465996</td><td class="numi">1</td></tr>
+<tr><th colspan="5">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td>spctest.com.pageAction.DataImportTest</td><td><a href="#m-1884059775"><b>beforeClass</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td></td><td>1468234451189</td><td class="numi">0</td></tr>
+<tr><th colspan="5">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td>spctest.com.pageAction.NewProjectTest</td><td><a href="#m1099771672"><b>f</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1468234458943</td><td class="numi">8400</td></tr>
+<tr class="failedeven"><td>spctest.com.pageAction.spcTest</td><td><a href="#m1435499458"><b>ndcTest</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td>6.6 14 </td><td>1468234479613</td><td class="numi">7713</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m-1884059775" name="m-1884059775" >spctest.com.pageAction.DataImportTest:beforeClass</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;s2id_autogen7_search&quot;}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;A0301020301&apos;, ip: &apos;192.168.30.34&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7d75144e-4a37-4803-9358-5aa4464b8d00
+*** Element info: {Using=id, value=s2id_autogen7_search}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at spctest.com.pageObject.DataImportPage.&lt;init&gt;(DataImportPage.java:32)
+	at spctest.com.pageAction.DataImportTest.beforeClass(DataImportTest.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;s2id_autogen7_search&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;A0301020301&apos;, ip: &apos;192.168.30.34&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/dmrj/AppData/Local/Temp/anonymous7516455784316028575webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/dmrj/AppData/Local/Temp/anonymous7516455784316028575webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10732)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/dmrj/AppData/Local/Temp/anonymous7516455784316028575webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/dmrj/AppData/Local/Temp/anonymous7516455784316028575webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12619)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/dmrj/AppData/Local/Temp/anonymous7516455784316028575webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12561)
+... Removed 14 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1099771672" name="m1099771672" >spctest.com.pageAction.NewProjectTest:f</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at spctest.com.pageObject.ProjectPage.newProject(ProjectPage.java:44)
+	at spctest.com.pageAction.NewProjectTest.f(NewProjectTest.java:25)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1435499458" name="m1435499458" >spctest.com.pageAction.spcTest:ndcTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>6.6</td>
+<td>14</td>
+</tr>
+<tr><td colspan="2">
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at spctest.com.pageObject.SPCPage.ndcChartCount(SPCPage.java:40)
+	at spctest.com.pageAction.spcTest.ndcTest(spcTest.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-721869787" name="m-721869787" >spctest.com.pageAction.DataImportTest:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-873113720" name="m-873113720" >spctest.com.pageAction.DataImportTest:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-721869787" name="m-721869787" >spctest.com.pageAction.DataImportTest:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-873113720" name="m-873113720" >spctest.com.pageAction.DataImportTest:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m753218372" name="m753218372" >spctest.com.pageAction.DataImportTest:afterClass</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1001017917" name="m1001017917" >spctest.com.pageAction.DataImportTest:deleteData</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m221093431" name="m221093431" >spctest.com.pageAction.DataImportTest:dataImport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
